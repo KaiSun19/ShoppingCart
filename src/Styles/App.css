@@ -1,0 +1,24 @@
+.home-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.home-title{
+    margin: 1%;
+    text-align: center;
+}
+
+.home-carousel{
+    margin: 1%;
+    width: 70%;
+}
+
+.carousel-div{
+    width: 20%;
+}
+
+.home-desc{
+    margin: 1%;
+}
+
+

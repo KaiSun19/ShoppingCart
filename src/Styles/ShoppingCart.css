@@ -1,0 +1,34 @@
+.close-button{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 2%;
+    margin: 2%;
+}
+
+.cart-close-icon{
+    transition:  all 0.6s ease-out;
+}
+
+.cart-close-icon:hover{
+    cursor: pointer;
+    transform: rotateZ(360deg)
+}
+
+.title{
+    margin: 2%;
+}
+
+.subtotal{
+    margin: 2%;
+}
+
+.checkout-button{
+    margin: 2%;
+    transition: all 1s ease-in-out;
+}
+
+.checkout-button > Button:hover{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,14 @@
+1. wrap app in the query client provider 
+2. create ShopInventory Component which is routed from the app 
+
+IN ShopInventory COMPONENT 
+
+2. get product data from the fakestore api 
+3. create ProductItem component that has id, category, description, image, price, title, amount 
+4. use useQuery to manage the api request --> if status is loading then show LinearProgress bar from material ui
+    4.1. if status is success then iterate through data and create a ProductItem component for each data point 
+5. Create drawer that opens using a cart button
+6. Create Cart component that is shown in drawer component
+    6.1. should have a display for when items are 0 
+    6.2. should show a list of items and total amount
+    6.3. button for going to check out 

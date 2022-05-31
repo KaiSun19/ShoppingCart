@@ -1,0 +1,53 @@
+.item-title{
+    width: 30%;
+}
+
+.item-page{
+    margin: 4%;
+}
+
+.item-image{
+    width: 40%;
+}
+
+.item-page > div{
+    margin: 1%;
+}
+
+img{
+    width:70%;
+    transition: .5s ease all; 
+    object-fit:cover;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+.item-desc{
+    margin-left: 5%;
+    width: 30%;
+}
+
+
+.checkout-section{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-content: flex-start;
+    margin: 4%;
+}
+
+.checkout-section > div{
+    margin: 1%;
+}
+
+.item-button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 148px;
+}
+
+
